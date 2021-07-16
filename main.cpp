@@ -51,85 +51,104 @@ arm.flex();                             // 3)
 arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
+
+/* My exampes */
+
+/*apologies some were a bit tongue-in-cheek as I was running out of things to think of in the context of a working day - I don't really have a 5PM alarm! */
+
+
 //  1)
-//  Noun:
-//  action 1:
+//  Noun:       spindle
+//  action 1:   spindle moves in X
+spindle.moveX();
+//  action 2:   spindle checks on/off status
+spindle.isSpinning(); 
+//  action 3:   spindle maintains set speed
+spindle.maintainSpeed();
 
-//  action 2:
-
-//  action 3:
- 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun:       motorZ1
+//  action 1:   check position of encoder
+motorZ1.checkAngle();
+//  action 2:   calculate speed of motor z1
+motorZ1.CalculateSpeed(); 
+//  action 3:   motorZ1 slows to a stop
+motorZ1.stop();
 
-//  action 2:
-
-//  action 3:
- 
 //  3)
-//  Noun:
-//  action 1:
+//  Noun:     vacuum  
+//  action 1:   check if vacuum is on
+vacuum.isOn();
+//  action 2:   vacuum is full
+vacuum.isFull(); 
+//  action 3:   vacuum issues warning
+vacuum.warning();
 
-//  action 2:
-
-//  action 3:
- 
 //  4)
-//  Noun:
-//  action 1:
+//  Noun:       tool
+//  action 1:   get current cutting tool number
+tool.getCurrentNumber();
+//  action 2:   change curent tool
+tool.change(); 
+//  action 3:   check tool height
+tool.zeroHeight();
 
-//  action 2:
-
-//  action 3:
- 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun:       workshopDoor
+//  action 1:   workshop door is closed?
+workshopDoor.isClosed();
+//  action 2:   workshop door is moving
+workshopDoor.isMoving(); 
+//  action 3:   respray the workshop door
+workshopDoor.changeColour();
 
-//  action 2:
-
-//  action 3:
- 
 //  6)
-//  Noun:
-//  action 1:
+//  Noun:       aircon
+//  action 1:   measure the room temperature
+aircon.measureTemperature();
+//  action 2:   increase aircon fan speed
+aircon.increaseFanSpeed;
+//  action 3:   aircon checks filter condition
+aircon.needsFilterChange(); 
 
-//  action 2:
-
-//  action 3:
- 
 //  7)
-//  Noun:
-//  action 1:
+//  Noun:       computer
+//  action 1:   upgrade computer software
+computer.upgrade();
+//  action 2:   replace the computer
+computer.replace();
+//  action 3:   HP has been a headache for 2 1/2 months
+computer.getAMacInstead(); 
 
-//  action 2:
-
-//  action 3:
- 
 //  8)
-//  Noun:
-//  action 1:
+//  Noun:       radio
+//  action 1:   change the radio station
+radio.changeStation();
+//  action 2:   turn the radio volume up
+radio.volumeUp();
+//  action 3:   swap out the monotony for Audible
+radio.getAudible();
 
-//  action 2:
-
-//  action 3:
- 
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       kettle
+//  action 1:   fill the kettle
+kettle.fill();
+//  action 2:   boil kettle  
+kettle.boil();
+//  action 3:   kettle mashes tea  
+kettle.mash();
  
 //  10)
-//  Noun:
-//  action 1:
+//  Noun:       bell
+//  action 1:   bell checks whether 5PM yet
+bell.is5PM();
+//  action 2:   bell sounds for hometime
+bell.soundsHometime();
+//  action 3:   bell checks functional status
+bell.isBroken();
 
-//  action 2:
 
-//  action 3:
+
  
 
 
