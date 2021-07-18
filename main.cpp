@@ -59,93 +59,93 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 //  1)
 //  Noun:       spindle
-//  action 1:   spindle moves in X
-spindle.moveX();
-//  action 2:   spindle checks on/off status
-spindle.isSpinning(); 
-//  action 3:   spindle maintains set speed
-spindle.maintainSpeed();
+//  action 1:   moves along X
+spindle.moveAlongX();
+//  action 2:   turn on
+spindle.turnOn(); 
+//  action 3:   maintain set speed
+spindle.maintainSetSpeed();
 
 //  2)
-//  Noun:       motorZ1
-//  action 1:   check position of encoder
-motorZ1.checkAngle();
-//  action 2:   calculate speed of motor z1
-motorZ1.CalculateSpeed(); 
-//  action 3:   motorZ1 slows to a stop
-motorZ1.stop();
+//  Noun:       motor
+//  action 1:   speeds up
+motor.speedsUp();
+//  action 2:   calculate speed
+motor.calculateSpeed(); 
+//  action 3:   slow to a stop
+motor.slowToAStop();
 
 //  3)
-//  Noun:     vacuum  
-//  action 1:   check if vacuum is on
-vacuum.isOn();
-//  action 2:   vacuum is full
-vacuum.isFull(); 
-//  action 3:   vacuum issues warning
-vacuum.warning();
+//  Noun:       vacuum  
+//  action 1:   turn on
+vacuum.turnOn();
+//  action 2:   clean filter
+vacuum.cleanFilter(); 
+//  action 3:   issue fault warning
+vacuum.issueFaultWarning();
 
 //  4)
 //  Noun:       tool
-//  action 1:   get current cutting tool number
-tool.getCurrentNumber();
-//  action 2:   change curent tool
-tool.change(); 
-//  action 3:   check tool height
-tool.zeroHeight();
+//  action 1:   start spindle
+tool.startSpindle();
+//  action 2:   change current tool
+tool.changeCurrentTool(); 
+//  action 3:   zero tool height
+tool.zeroToolHeight();
 
 //  5)
 //  Noun:       workshopDoor
-//  action 1:   workshop door is closed?
-workshopDoor.isClosed();
-//  action 2:   workshop door is moving
-workshopDoor.isMoving(); 
-//  action 3:   respray the workshop door
+//  action 1:   open 
+workshopDoor.open();
+//  action 2:   close halfway
+workshopDoor.closeHalfway(); 
+//  action 3:   change colour
 workshopDoor.changeColour();
 
 //  6)
 //  Noun:       aircon
-//  action 1:   measure the room temperature
-aircon.measureTemperature();
-//  action 2:   increase aircon fan speed
-aircon.increaseFanSpeed;
-//  action 3:   aircon checks filter condition
-aircon.needsFilterChange(); 
+//  action 1:   measure room temperature
+aircon.measureRoomTemperature();
+//  action 2:   increase fan speed
+aircon.increaseFanSpeed();
+//  action 3:   decrease temperature
+aircon.decreaseTemperature(); 
 
 //  7)
 //  Noun:       computer
-//  action 1:   upgrade computer software
-computer.upgrade();
-//  action 2:   replace the computer
+//  action 1:   upgrade software
+computer.upgradeSoftware();
+//  action 2:   replace
 computer.replace();
-//  action 3:   HP has been a headache for 2 1/2 months
-computer.getAMacInstead(); 
+//  action 3:   shutdown
+computer.shutdown(); 
 
 //  8)
 //  Noun:       radio
-//  action 1:   change the radio station
+//  action 1:   change station
 radio.changeStation();
-//  action 2:   turn the radio volume up
+//  action 2:   volume up
 radio.volumeUp();
-//  action 3:   swap out the monotony for Audible
+//  action 3:   get Audible
 radio.getAudible();
 
 //  9)
 //  Noun:       kettle
-//  action 1:   fill the kettle
+//  action 1:   fill
 kettle.fill();
-//  action 2:   boil kettle  
+//  action 2:   boil  
 kettle.boil();
-//  action 3:   kettle mashes tea  
+//  action 3:   mash 
 kettle.mash();
  
 //  10)
 //  Noun:       bell
-//  action 1:   bell checks whether 5PM yet
-bell.is5PM();
-//  action 2:   bell sounds for hometime
-bell.soundsHometime();
-//  action 3:   bell checks functional status
-bell.isBroken();
+//  action 1:   rings
+bell.rings();
+//  action 2:   play tune
+bell.playTune();
+//  action 3:   play rhythm
+bell.playRhythm();
 
 
 
