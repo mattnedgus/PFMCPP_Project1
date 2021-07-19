@@ -51,85 +51,104 @@ arm.flex();                             // 3)
 arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
+
+/* My exampes */
+
+/*apologies some were a bit tongue-in-cheek as I was running out of things to think of in the context of a working day - I don't really have a 5PM alarm! */
+
+
 //  1)
-//  Noun:
-//  action 1:
+//  Noun:       spindle
+//  action 1:   moves along X
+spindle.moveAlongX();
+//  action 2:   turn on
+spindle.turnOn(); 
+//  action 3:   maintain set speed
+spindle.maintainSetSpeed();
 
-//  action 2:
-
-//  action 3:
- 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun:       motor
+//  action 1:   speeds up
+motor.speedsUp();
+//  action 2:   calculate speed
+motor.calculateSpeed(); 
+//  action 3:   slow to a stop
+motor.slowToAStop();
 
-//  action 2:
-
-//  action 3:
- 
 //  3)
-//  Noun:
-//  action 1:
+//  Noun:       vacuum  
+//  action 1:   turn on
+vacuum.turnOn();
+//  action 2:   clean filter
+vacuum.cleanFilter(); 
+//  action 3:   issue fault warning
+vacuum.issueFaultWarning();
 
-//  action 2:
-
-//  action 3:
- 
 //  4)
-//  Noun:
-//  action 1:
+//  Noun:       tool
+//  action 1:   start spindle
+tool.startSpindle();
+//  action 2:   change current tool
+tool.changeCurrentTool(); 
+//  action 3:   zero tool height
+tool.zeroToolHeight();
 
-//  action 2:
-
-//  action 3:
- 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun:       workshopDoor
+//  action 1:   open 
+workshopDoor.open();
+//  action 2:   close halfway
+workshopDoor.closeHalfway(); 
+//  action 3:   change colour
+workshopDoor.changeColour();
 
-//  action 2:
-
-//  action 3:
- 
 //  6)
-//  Noun:
-//  action 1:
+//  Noun:       aircon
+//  action 1:   measure room temperature
+aircon.measureRoomTemperature();
+//  action 2:   increase fan speed
+aircon.increaseFanSpeed();
+//  action 3:   decrease temperature
+aircon.decreaseTemperature(); 
 
-//  action 2:
-
-//  action 3:
- 
 //  7)
-//  Noun:
-//  action 1:
+//  Noun:       computer
+//  action 1:   upgrade software
+computer.upgradeSoftware();
+//  action 2:   replace
+computer.replace();
+//  action 3:   shutdown
+computer.shutdown(); 
 
-//  action 2:
-
-//  action 3:
- 
 //  8)
-//  Noun:
-//  action 1:
+//  Noun:       radio
+//  action 1:   change station
+radio.changeStation();
+//  action 2:   volume up
+radio.volumeUp();
+//  action 3:   get Audible
+radio.getAudible();
 
-//  action 2:
-
-//  action 3:
- 
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       kettle
+//  action 1:   fill
+kettle.fill();
+//  action 2:   boil  
+kettle.boil();
+//  action 3:   mash 
+kettle.mash();
  
 //  10)
-//  Noun:
-//  action 1:
+//  Noun:       bell
+//  action 1:   rings
+bell.rings();
+//  action 2:   play tune
+bell.playTune();
+//  action 3:   play rhythm
+bell.playRhythm();
 
-//  action 2:
 
-//  action 3:
+
  
 
 
